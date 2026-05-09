@@ -7,7 +7,7 @@ app = Flask(__name__)
 # -------------------------------
 # Load model + label encoder
 # -------------------------------
-model = joblib.load("model.pkl")
+model = joblib.load("model1.pkl")
 smoke_encoder = joblib.load("label_encoder.pkl")
 
 print("Model and Encoder loaded successfully!")
